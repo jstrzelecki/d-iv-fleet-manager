@@ -1,12 +1,9 @@
 # ==============================================================================
 # .NET / Avalonia (C#)
 # ==============================================================================
-# Foldery kompilacji i wyniki budowania
 [Bb]in/
 [Oo]bj/
 [Oo]ut/
-
-# Pliki konfiguracyjne użytkownika
 *.user
 *.userosscache
 *.sln.docstates
@@ -14,17 +11,14 @@
 # ==============================================================================
 # JetBrains Rider / ReSharper
 # ==============================================================================
-# Katalog ustawień lokalnych IDE
 .idea/
 *.sln.iml
 *.DotSettings.user
-
-# Pliki tymczasowe ReSharpera
 _ReSharper*/
 *.[Rr]e[Ss]harper
 
 # ==============================================================================
-# Visual Studio (na wypadek, gdyby ktoś z zespołu używał VS)
+# Visual Studio (na wypadek współpracy z kimś na Windowsie)
 # ==============================================================================
 .vs/
 *.suo
@@ -34,21 +28,20 @@ _ReSharper*/
 *.publishsettings
 
 # ==============================================================================
-# System operacyjny i pliki tymczasowe
+# macOS (Twój system)
 # ==============================================================================
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-
-# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 Icon
 
-# Linux
+# ==============================================================================
+# Windows / Linux (dla reszty zespołu)
+# ==============================================================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 *~
 .fuse_hidden*
 .directory
@@ -57,10 +50,7 @@ Icon
 # ==============================================================================
 # Inne (logi, testy)
 # ==============================================================================
-# Pliki logów
 *.log
-
-# Wyniki testów (TestResults)
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 *.trx
